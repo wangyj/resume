@@ -1,219 +1,261 @@
-Stephen Tudor
-=============
+个人信息
+--------
 
-Front-end Web Developer
------------------------
+-  姓名: 王永杰
+-  Mobile: 138-114-00444/136-0124-0624
+-  Email&Gtalk&MSN&QQ: yongjiemail@gmail.com
 
--  Phone: `610-590-4484 <tel://610-590-4484>`_
--  Email: `smt@stephentudor.com <mailto://smt@stephentudor.com>`_
--  Blog: `stephentudor.com <http://stephentudor.com>`_
--  Github: `smt <http://github.com/smt>`_
--  Twitter: `@tagsoup <http://twitter.com/tagsoup>`_
+基本状况
+--------
 
-Summary
--------
+硕士学位，七年半工作经验，十年软件开发项目经验，六年Android平台开发经验，四年+
+Android架构和团队管理经验。19个月OPhone平台，19个月Android智能机顶盒，涉及
+Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票等应用。Android平台
+团队建设、技术体系和研发环境部署经验丰富，熟练掌握各种SCM工具搭建和配置。
 
-I am an experienced front-end developer who has led development for
-multiple successful $1MM+ projects. I am passionate about building high
-quality apps and user interfaces with modern web technologies. Through
-being conversant in server-side engineering, visual/UX design, and
-project management practices, I am able to execute end-to-end on a
-product or project.
+能力概括
+--------
 
-Specialties
------------
+-  十年+C/C++，六年Java，熟练掌握Makefile和Shell，基本掌握Python和Php等脚本语言。
+-  六年Android开发经验，四年架构和管理经验，涉及Framework, MultiMedia,
+   原生应用 ，输入法, 微酷和酷6，京东彩票，CTS测试等。
+-  SCM 经验丰富，搭建Android开发环境，Review，wiki，Bug Tracker以及Daily
+   Build等。
+-  熟练掌握Object Oriented，设计模式，重构以及单元测试等;
+-  熟练使用Arch/Debian/Ubuntu等类Unix操作系统，VIM,
+   Eclipse等各种开发工具，正则表达式等;
+-  Win平台项目开发经验丰富, 熟练使用makefile, VC2005, VC6.0等IDE开发环境
+-  熟练掌握GDAL/OGR, GEOS, 了解JTS, JCS, RoadMatcher等开源技术;
+-  掌握扎实的计算机基础，数据结构，操作系统等，代码风格良好，质量高，逻辑严谨。
+-  通过了英语四六级考试，具备良好的听说读写能力;
+-  具有良好的团队协作精神和沟通表达能力，勇于并乐于接受挑战和探索尝试。
+-  善于克服困难，分析和解决问题。
 
-Authoring great user experiences with JavaScript, HTML, and CSS.
-Advocating for the open web. Managing and mentoring dev teams.
-Performing code reviews. Writing white papers and API documentation.
-Particating in the black art of software estimation. Drawing from a
-strong background in many diverse web technologies and frameworks.
+工作经历
+--------
 
-Experience
-----------
+**软件架构师** @ 京东商城 移动研发部
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-**Senior Software Engineer** at `EPAM Empathy Lab <http://epam.com/empathylab>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+京东彩票组负责人，京东架构委员会委员，京东评标专家
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-*December 2012 - Present*
+*2013.6 - 至今*
 
-Championing a more collaborative process for responsive web design
-between the UX and development disciplines. Curating an internal static
-web framework and responsive pattern library to be used on multiple
-projects. Leading development on responsive prototypes for NBC
-Universal, DIRECTV, AIG, Lionsgate, and the USA Network.
+主要工作:
+^^^^^^^^^
 
-**Senior Web Developer** at `Empathy Lab <http://empathylab.com>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-  解决京东商城客户端，闪购客户端部分疑难bug和优化等工作。
+-  完成京东彩票内嵌版一期，二期需求，设计，开发，测试并成功上线。
+-  正在进行京东彩票内嵌版三期开发
+-  完成Git, Gerrit等工具和服务部署，完成daily build持续集成。
+-  完成架构升级插件化项目Eclipse插件工具开发。
+-  分析京东客户端图片加载慢的问题，提出分析结论和解决办法。
 
-*April 2010 - December 2012*
+**高级研究员** @ 盛大创新院 多媒体主题院
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Created front-end web applications on tight deadlines for marquee
-clientele. Responsible for estimating work, vetting UX designs prior to
-development, developing key features, assisting team members on
-challenging sections of code, performing code reviews, and coordinating
-releases.
+微酷Android负责人（Android开发共两人，项目团队共12人）
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Web Developer** at `Empathy Lab <http://empathylab.com>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*2012.3 - 2013.5*
 
-*April 2009 - April 2010* (1 year 1 month)
+获得荣誉
+^^^^^^^^
 
-Authored standards-based HTML, CSS, and JavaScript for websites
-representing a broad range of internationally recognized brands: Sesame
-Street, Sprout, Lexmark, StrideRite, Walgreens, Verizon, Comcast, 21st
-Century Insurance, Liberty Global, American Red Cross.
+-  2012年度，项目组荣获“最佳项目团队”奖。
 
-**IT Director** at `Artisan Custom Doorworks <http://artisandoorworks.com>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+酷6工作 *2012.9-2013.5*
+^^^^^^^^^^^^^^^^^^^^^^^
 
-*December 2005 - April 2009* (3 years 5 months)
+-  参与移动团队长远目标规划和短期计划制定。
+-  制定Android团队计划，设计产品与模块架构。
+-  重新设计应用框架，偏重模块化，规范化 ，并使用新框架实现酷6微电影应用。
+-  完成酷6视频新应用的“离线下载”模块。
+-  开发和维护酷6微电影和ChannelV。
+-  预研自有MediaPlayer视频播放引擎。
+-  设计和开发酷6拍客。
 
-Designed the corporate website with a library of over 8,000 searchable
-PDF docemunts. Developed in-house sales and management application in
-Rails, while supporting and customizing business systems and
-applications.
+创新院工作 *2012.3-2012.9*
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**President** at `Tudor Studio <http://tudorstudio.com>`_
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-  完成微酷1.3，1.4和1.5三个版本的开发。
+-  针对1.x存在问题，并根据2.x全新设计对Android版应用进行重新设计，模块化，框架搭建，代码规范化。
+-  完成微酷各版本级定制版自动化开发版日构建和release版发布。
+-  完成行为统计iAnalytics SDK及Demo开发，并协助集成至微酷和智能相册。
+-  完成MediaRecorder SDK及Demo开发，并协助以插件形式集成至有你。
+-  支援智能相册，解决重要bug，发现更深问题并解决。
+-  协助Real2Virtual解决重要bug，如内存泄漏问题等。
 
-*January 2002 - Present*
+**研发高级经理** @ 北京乐投科技有限公司
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Providing professional web consulting and development services, from
-individuals and small businesses to Fortune 500 companies. Designing and
-developing hosted web applications with open source frameworks like Ruby
-on Rails. Integrating CMS and eCommerce applications.
+Android原生应用和Framework组负责人
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**Systems Engineer** at Lockheed Martin Global Telecommunications (defunct)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*2011.12 - 2012.3*
 
-*May 2000 - January 2002* (1 year 9 months)
+主要工作
+^^^^^^^^
 
-Performed Unix system administration duties for an internal R&D
-project's data center. Configured and managed a cluster of web servers
-through the duration of the project. Company ceased operations in early
-2002.
+-  参与产品规划，设计及定义。
+-  负责framework feature开发和bug fix等。
+-  负责原生应用如Gallery, Music等开发和bug fix等。
+-  负责Multimedia feature开发和bug fix等。
+-  负责wowSearch MoviePlayer原型开发。
+-  负责reader pad的Home原型开发等。
 
-Skills & Expertise
-------------------
+**软件架构师&技术经理** @ 北京赛科世纪数码科技有限公司
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-These are languages, tools, and practices to which I have had exposure
-over the past 6 years or so. Those things which enjoy routine usage in
-my daily work are denoted with a :sup:`†` symbol.
+智能机顶盒软件架构师，Framework, Multimedia, VOIP，SCM等六个team负责人
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Programming Languages
-~~~~~~~~~~~~~~~~~~~~~
+*2010.5 - 2011.12*
 
--  `JavaScript <http://developer.mozilla.org/en/JavaScript>`_\ :sup:`†`
--  `PHP <http://php.net>`_
--  `Python <http://python.org>`_
--  `Ruby <http://ruby-lang.org>`_\ :sup:`†`
+获得荣誉
+^^^^^^^^
 
-Markup/Templating Languages & Preprocessors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-  2010年度，项目组被评为赛科世纪“飞虎群英奖”。
+-  2010年度，个人被评为赛科世纪“爱迪生创新奖”。
 
--  `CoffeeScript <http://coffeescript.org>`_
--  `CSS <http://www.w3.org/Style/CSS/Overview.en.html>`_\ :sup:`†`
--  `Dust.js <http://linkedin.github.com/dustjs>`_
--  `ERB/eRuby <http://en.wikipedia.org/wiki/ERuby>`_
--  `Haml <http://haml.info>`_
--  `Handlebars.js <http://handlebarsjs.com>`_
--  `HTML <http://developers.whatwg.org>`_\ :sup:`†`
--  `Jade <http://jade-lang.com>`_
--  `JSP <http://www.oracle.com/technetwork/java/javaee/jsp>`_
--  `JSTL <http://docs.oracle.com/javaee/5/tutorial/doc/bnakc.html>`_\ :sup:`†`
--  `LESS <http://lesscss.org>`_\ :sup:`†`
--  `Liquid <http://liquidmarkup.org>`_
--  `Markdown <http://daringfireball.net/projects/markdown>`_\ :sup:`†`
--  `Mustache <http://mustache.github.com>`_
--  `Sass <http://sass-lang.com>`_\ :sup:`†`
--  `Smarty <http://smarty.net>`_
--  `Stylus <http://learnboost.github.com/stylus>`_
+研发方向工作
+^^^^^^^^^^^^
 
-Frameworks & APIs
-~~~~~~~~~~~~~~~~~
+-  初期担任软件架构师，主要负责：
 
--  `Backbone.js <http://backbonejs.org>`_\ :sup:`†`
--  `Bower <http://bower.io>`_
--  `Buster.js <http://busterjs.org>`_
--  `Compass <http://compass-style.org>`_\ :sup:`†`
--  `CodeIgniter <http://codeigniter.com>`_
--  `Django <http://www.djangoproject.com>`_
--  `Dojo <http://dojotoolkit.org>`_
--  `Express <http://expressjs.com>`_
--  `FaceBook Open Graph <http://developers.facebook.com>`_
--  `Gigya <http://developers.gigya.com>`_
--  `Google Maps API <http://developers.google.com/maps>`_
--  `jQuery <http://jquery.com>`_\ :sup:`†`
--  `Lodash <http://lodash.com>`_\ :sup:`†`
--  `Meteor <http://meteor.com>`_
--  `Middleman <http://middlemanapp.com>`_
--  `Node.js <http://nodejs.org>`_
--  `Prototype.js <http://prototypejs.org>`_
--  `Require.js <http://requirejs.org>`_\ :sup:`†`
--  `Ruby on Rails <http://rubyonrails.org>`_
--  `Sinatra <http://sinatrarb.com>`_
--  `Twitter API <http://dev.twitter.com>`_
--  `Underscore.js <http://underscorejs.org>`_\ :sup:`†`
--  `Wordpress <http://wordpress.org>`_
--  `YUI <http://developer.yahoo.com/yui>`_
+   -  负责产品规划和定义，制定年度目标。
+   -  组建Android团队，由1人发展至7人。
+   -  协助制板和移植工作，6月正式启动，7月移植初步成功。
 
-Software & Tools
-~~~~~~~~~~~~~~~~
+-  中期兼任Multimedia团队team leader，团队由3人至7人。
 
--  `Adobe Creative
-   Suite <http://www.adobe.com/products/creativesuite.html>`_\ :sup:`†`
--  `Amazon Web Services <http://aws.amazon.com>`_
--  `Apache <http://apache.org>`_\ :sup:`†`
--  `Apple XCode <http://developer.apple.com>`_
--  `Demandware <http://demandware.com>`_
--  `Git <http://git-scm.com>`_\ :sup:`†`
--  `Grunt <http://gruntjs.com>`_
--  `JBoss <http://jboss.org>`_
--  `JIRA <http://atlassian.com/software/jira>`_\ :sup:`†`
--  `Mac OS X <http://apple.com/macosx>`_\ :sup:`†`
--  `MongoDB <http://mongodb.org>`_
--  `MySQL <http://mysql.com>`_
--  `Nginx <http://wiki.nginx.org>`_
--  `Oracle
-   ATG <http://www.oracle.com/us/products/applications/web-commerce/atg>`_
--  `Pandoc <http://johnmacfarlane.net/pandoc>`_
--  `PostgreSQL <http://postgresql.org>`_
--  `rvm <http://rvm.beginrescueend.com>`_\ :sup:`†`
--  `Sublime Text <http://www.sublimetext.com>`_
--  `Subversion <http://svn.apache.org>`_
--  `tmux <http://tmux.sourceforge.net>`_\ :sup:`†`
--  `Tomcat <http://tomcat.apache.com>`_
--  `Ubuntu Linux <http://ubuntu.com>`_
--  `Vagrant <http://vagrantup.com>`_
--  `Vim <http://www.vim.org>`_\ :sup:`†`
--  `VirtualBox <http://virtualbox.org>`_
--  `WebStorm <http://jetbrains.com/webstorm>`_
--  `Yeoman <http://yeoman.io>`_
--  `zsh <http://www.zsh.org>`_\ :sup:`†`
+   -  多媒体团队工作组织和安排。
+   -  完成基于OpenCore的AVI和MKV扩展。
+   -  完成H.264等格式的硬解对接和兼容。
+   -  完成MediaScanner扫描机制的修改，适应多个USB设备。
+   -  完成VideoPlayer应用的开发。
+   -  完成VideoPhone的移植和完善。
 
-Education
----------
+-  后续兼任Framework team leader，小团队共16人
 
-`Saint Joseph's University <http://sju.edu>`_, Erivan K. Haub School of
-Business
-BS, Information Systems, 1996 - 2000
+   -  MultiMedia方向4人，主要完成基于ffmpeg的StageFright插件等工作。
+   -  VidePhone方向2人，主要负责VideoPhone的开发和维护，SIP协议，硬解码和硬编码，同时和客户的VideoPhone进行对接。
+   -  Network方向2人，主要完成Wifi，Bluetooth和LAN的硬件适配和功能完善，实现手机遥控器的Service和Client。
+   -  SCM
+      方向3人，主要负责配置管理服务搭建和维护工作，比如分支的创建，版本的发布，流程梳理等。
+   -  应用方向，3人，开发VideoPlayer3D，Music，Gallery3D，VideoPhone
+      App，升级功能包括增量升级。
+   -  GUI Framework方向，2人，主要完成framework功能开发和bug修改等。
 
-Honors and Awards
------------------
+-  Q3 主要担任软件三部(共约40人)技术经理，负责Android方向技术把握和支持。
 
-*Unsung Hero*, Empathy Lab, May 2011
-A peer-awarded honor which I'll always be terribly proud to have won.
+   -  主要包括Framework功能开发和bug修改。
+   -  疑难问题解决如游戏移植闪烁问题和USB丢失文件等问题。
 
-Interests
----------
+SCM 方向 - 为研发服务，节省开发时间，提升工作效率，减少人力工作。
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  Being a dad and spending time with my family
--  Playing `board and card
-   games <http://boardgamegeek.com/user/smtudor>`_ (and video games,
-   too)
--  Making and listening to `music <http://www.rdio.com/people/smtudor>`_
--  Watching and contributing to Open Source Software
+**资深软件工程师** @ 播思通讯 GUI-Framework项目组
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
- ©2013 `Stephen Tudor <http://s17r.com/resume>`_. All rights reserved.
-Direct contact only desired (no recruiters please).
+*2008.10 - 2010.5*
+
+主要工作
+^^^^^^^^
+
+-  负责Android输入法设计，开发，技术支持，bug fix以及性能优化等。
+-  负责 GUI-Framework 文字相关功能扩展开发，维护以及技术支持等;
+-  负责 GUI-Framework Widget 扩展、开发、维护和技术支持等;
+
+主要成果
+^^^^^^^^
+
+-  完成基于Android1.0的OMS1.0和FBW1.2平台12键拼音输入法。
+-  完成基于Android1.0的OMS1.0和FBW1.2平台全键盘拼音输入法。
+-  完成AutoText功能并merge到基于Android1.5的OMS1.5平台。
+-  完成double click手势并提高用户体验和易用性。
+-  参与三个Copy&Paste方案设计讨论和改进，并完成功能实现和易用性提高，最终设计进入OMS2.0发布。
+-  开发和维护GUI-framework Widget如TextView，ScrollView，DynamicLayout等。
+-  fix GUI-framework相关bug等。
+
+**高级软件开发工程师** @ 灵图软件 技术预研项目组&数据检查系统（QCS）项目组
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*2006.12 - 2008.10*
+
+获得荣誉
+^^^^^^^^
+
+-  2007年度，项目组被评为灵图公司“年度卓越团队”。
+-  2007年度，个人被评为灵图公司“年度创新之星”。 ####主要工作
+-  数据检查系统一期（QCS），主要负责拓扑、形态类检查项开发及相关预研工作；
+-  技术预研，主要负责GIS方向开源技术如GEOS等，为其他开发人员提供技术支持；
+-  数据方向工具开发, 为数据生产提供支持；
+-  数据检查系统二期(QCS2),
+   主要负责系统重构优化设计和管理及相关预研工作等;
+-  技术预研项目组，主要负责软件开发和GIS方向新技术的学习和研究，基础库的开发
+   和维护以及部门技术方向的培训。
+
+主要成果
+^^^^^^^^
+
+-  熟练掌握诸多GIS开源技术如GDAL/OGR, GEOS, PROJ.4, MITAB, BOOST
+   GRAPH等， 在项目开发中广泛应用，大大提高了开发效率并降低了开发难度；
+-  提炼公用算法形成代码库或动态库，为部门做技术积累，减少类似工具开发的重复
+   工作量，提供效率；
+-  实现了很多原本用MapBasic在技术上无法实现的工具，如引导点生成工具；
+-  在技术上对部门工具和项目开发进行支持，解决许多技术难点；
+-  完成QCS2开发、单元测试、测试等整体框架，测试由原来逐项测试，手工比对结果
+   提升到自动化批量测试的方式，减少了测试人员的工作量，大大提高了测试的效率；
+-  完成了lt\_matcher等基础库的开发，以支持工具、系统项目的开发；
+-  进行技术培训，提升部门同事的开发能力和学习兴趣；
+
+教育背景
+--------
+
+工学硕士 @ 北京交通大学
+~~~~~~~~~~~~~~~~~~~~~~~
+
+计算机与信息技术学院 信息科学研究所 信号与信息处理专业
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+*2004.9 - 2007.1*
+
+发表论文
+^^^^^^^^
+
+-  A Reversible Watermark Scheme Combined with Hash Function and
+   Lossless Compression, Lecture Notes in Computer Science, Volume
+   3684/2005, pp: 1168-1174,SCIE检索，第一作者
+-  可以自恢复和篡改定位的可逆数字水印，哈尔滨工业大学学报，Vol. 38(Sup.),
+   2006, pp: 791-794, EI检索，第一作者
+
+开发实习
+^^^^^^^^
+
+-  嵌入式设备Nand Flash 编程器开发项目等。
+-  在北京神鹰广宇科技有限责任公司任C++程序设计讲师。
+
+工学学士 @ 国防科学技术大学
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+机电工程与自动化学院 自动化专业，
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+*2000.9 - 2004.7*
+
+获得荣誉
+^^^^^^^^
+
+-  2002 - 2003学年，被评为*校优秀学员*，位列专业*第一名*。
+-  2001、2003、2004学年三次荣获曾宪梓奖学金。
+
+自我评价和爱好
+--------------
+
+-  开朗乐观自信，积极主动，喜欢思考，见解独到；
+-  爱问为什么，极具潜力和领悟力，有很好的分析和解决问题能力；
+-  对学习工作异常忘我和投入，总是充满了激情与活力。
+-  热爱乒乓球、篮球等球类运动，曾获计算机学院乒乓球比赛男子单打冠军和团体赛季军；
+-  热爱大自然，喜欢音乐，摄影，户外，登山等。
