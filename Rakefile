@@ -38,7 +38,7 @@ namespace :pdf do
   desc "Generate PDF file"
   task :generate => ["tex:generate"] do
     puts "Generating PDF file from LaTeX"
-    system("texexec --pdf resume.tex")
+    system("pandoc --template=$HOME/Templates/template.tex --latex-engine=xelatex -s -S resume.markdown -o resume.pdf")
     puts "Done"
   end
 end
