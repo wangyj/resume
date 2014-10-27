@@ -11,7 +11,7 @@
 <script src="data:application/x-javascript,%28function%20%28d%29%20%7B%0A%20%20var%20metas%20%3D%20d%2EgetElementsByTagName%28%27meta%27%29%3B%0A%20%20var%20i%3B%0A%20%20function%20gestureStart%28%29%20%7B%0A%20%20%20%20for%20%28i%3D0%3B%20i%3Cmetas%2Elength%3B%20i%2B%2B%29%20%7B%0A%20%20%20%20%20%20if%20%28metas%5Bi%5D%2Ename%20%3D%3D%3D%20%22viewport%22%29%20%7B%0A%20%20%20%20%20%20%20%20metas%5Bi%5D%2Econtent%20%3D%20%22width%3Ddevice%2Dwidth%2C%20minimum%2Dscale%3D0%2E25%2C%20maximum%2Dscale%3D1%2E6%22%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20if%20%28navigator%2EuserAgent%2Ematch%28%2FiPhone%2Fi%29%29%20%7B%0A%20%20%20%20for%20%28i%3D0%3B%20i%3Cmetas%2Elength%3B%20i%2B%2B%29%20%7B%0A%20%20%20%20%20%20if%20%28metas%5Bi%5D%2Ename%20%3D%3D%3D%20%22viewport%22%29%20%7B%0A%20%20%20%20%20%20%20%20metas%5Bi%5D%2Econtent%20%3D%20%22width%3Ddevice%2Dwidth%2C%20minimum%2Dscale%3D1%2E0%2C%20maximum%2Dscale%3D1%2E0%22%3B%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%20%20d%2EaddEventListener%28%22gesturestart%22%2C%20gestureStart%2C%20false%29%3B%0A%20%20%7D%0A%7D%28document%29%29%3B%0A%0A%28function%20%28w%2C%20d%29%20%7B%0A%20%20w%2EaddEventListener%28%27load%27%2C%20function%20%28%29%20%7B%0A%20%20%20%20var%20t%20%3D%20d%2EgetElementById%28%27front%2Dend%2Dweb%2Ddeveloper%27%29%3B%0A%20%20%20%20var%20h%20%3D%20d%2EquerySelectorAll%28%27%23stephen%2Dtudor%20%3E%20h1%27%29%5B0%5D%3B%0A%20%20%20%20t%2EaddEventListener%28%27mouseover%27%2C%20function%20%28e%29%20%7B%0A%20%20%20%20%20%20if%20%28%21h%2EclassList%29%20return%3B%0A%20%20%20%20%20%20h%2EclassList%2Eadd%28%27active%27%29%3B%0A%20%20%20%20%20%20return%20false%3B%0A%20%20%20%20%7D%2C%20false%29%3B%0A%20%20%20%20t%2EaddEventListener%28%27mouseout%27%2C%20function%20%28e%29%20%7B%0A%20%20%20%20%20%20if%20%28%21h%2EclassList%29%20return%3B%0A%20%20%20%20%20%20h%2EclassList%2Eremove%28%27active%27%29%3B%0A%20%20%20%20%20%20return%20false%3B%0A%20%20%20%20%7D%2C%20false%29%3B%0A%20%20%7D%2C%20false%29%3B%0A%7D%28window%2C%20document%2C%20undefined%29%29%3B%0A"></script>
 </head>
 <body>
-<section class="level2" id="个人信息">
+<section id="个人信息" class="level2">
 <h2>个人信息</h2>
 <ul>
 <li>姓名: 王永杰</li>
@@ -19,11 +19,11 @@
 <li>Email&amp;Gtalk&amp;MSN&amp;QQ: yongjiemail@gmail.com</li>
 </ul>
 </section>
-<section class="level2" id="基本状况">
+<section id="基本状况" class="level2">
 <h2>基本状况</h2>
 <p>硕士学位，七年半工作经验，十年软件开发项目经验，六年Android平台开发经验，四年+ Android架构和团队管理经验。19个月OPhone平台，19个月Android智能机顶盒，涉及 Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票等应用。Android平台 团队建设、技术体系和研发环境部署经验丰富，熟练掌握各种SCM工具搭建和配置。</p>
 </section>
-<section class="level2" id="能力概括">
+<section id="能力概括" class="level2">
 <h2>能力概括</h2>
 <ul>
 <li>十年+C/C++，六年Java，熟练掌握Makefile和Shell，基本掌握Python和Php等脚本语言。</li>
@@ -39,39 +39,41 @@
 <li>善于克服困难，分析和解决问题。</li>
 </ul>
 </section>
-<section class="level2" id="工作经历">
+<section id="工作经历" class="level2">
 <h2>工作经历</h2>
-<section class="level3" id="软件架构师-京东商城-移动研发部">
+<section id="软件架构师-京东商城-移动研发部" class="level3">
 <h3><strong>软件架构师</strong> @ 京东商城 移动研发部</h3>
-<section class="level4" id="京东彩票组负责人京东架构委员会委员京东评标专家">
+<section id="京东彩票组负责人京东架构委员会委员京东评标专家" class="level4">
 <h4>京东彩票组负责人，京东架构委员会委员，京东评标专家</h4>
 <p><em>2013.6 - 至今</em></p>
 </section>
-<section class="level4" id="主要工作">
+<section id="主要工作" class="level4">
 <h4>主要工作:</h4>
 <ul>
-<li>解决京东商城客户端，闪购客户端部分疑难bug和优化等工作。</li>
-<li>完成京东彩票内嵌版一期，二期需求，设计，开发，测试并成功上线。</li>
-<li>正在进行京东彩票内嵌版三期开发</li>
+<li>完成京东彩票内嵌版一期，二期，三期需求，设计，开发，测试并成功上线。</li>
+<li>正在进行京东彩票内嵌版四期开发</li>
 <li>完成Git, Gerrit等工具和服务部署，完成daily build持续集成。</li>
+<li>完成自动化单元测试，和dailybuild集成，自动运行和报告。</li>
 <li>完成架构升级插件化项目Eclipse插件工具开发。</li>
+<li>完成部门内分享：提高研发效率和产品质量之工具篇</li>
+<li>解决京东商城客户端，闪购客户端部分疑难bug和优化等工作。</li>
 <li>分析京东客户端图片加载慢的问题，提出分析结论和解决办法。</li>
 </ul>
 </section>
 </section>
-<section class="level3" id="高级研究员-盛大创新院-多媒体主题院">
+<section id="高级研究员-盛大创新院-多媒体主题院" class="level3">
 <h3><strong>高级研究员</strong> @ 盛大创新院 多媒体主题院</h3>
-<section class="level4" id="微酷android负责人android开发共两人项目团队共12人">
+<section id="微酷android负责人android开发共两人项目团队共12人" class="level4">
 <h4>微酷Android负责人（Android开发共两人，项目团队共12人）</h4>
 <p><em>2012.3 - 2013.5</em></p>
 </section>
-<section class="level4" id="获得荣誉">
+<section id="获得荣誉" class="level4">
 <h4>获得荣誉</h4>
 <ul>
 <li>2012年度，项目组荣获“最佳项目团队”奖。</li>
 </ul>
 </section>
-<section class="level4" id="酷6工作-2012.9-2013.5">
+<section id="酷6工作-2012.9-2013.5" class="level4">
 <h4>酷6工作 <em>2012.9-2013.5</em></h4>
 <ul>
 <li>参与移动团队长远目标规划和短期计划制定。</li>
@@ -83,7 +85,7 @@
 <li>设计和开发酷6拍客。</li>
 </ul>
 </section>
-<section class="level4" id="创新院工作-2012.3-2012.9">
+<section id="创新院工作-2012.3-2012.9" class="level4">
 <h4>创新院工作 <em>2012.3-2012.9</em></h4>
 <ul>
 <li>完成微酷1.3，1.4和1.5三个版本的开发。</li>
@@ -96,13 +98,13 @@
 </ul>
 </section>
 </section>
-<section class="level3" id="研发高级经理-北京乐投科技有限公司">
+<section id="研发高级经理-北京乐投科技有限公司" class="level3">
 <h3><strong>研发高级经理</strong> @ 北京乐投科技有限公司</h3>
-<section class="level4" id="android原生应用和framework组负责人">
+<section id="android原生应用和framework组负责人" class="level4">
 <h4>Android原生应用和Framework组负责人</h4>
 <p><em>2011.12 - 2012.3</em></p>
 </section>
-<section class="level4" id="主要工作-1">
+<section id="主要工作-1" class="level4">
 <h4>主要工作</h4>
 <ul>
 <li>参与产品规划，设计及定义。</li>
@@ -114,20 +116,20 @@
 </ul>
 </section>
 </section>
-<section class="level3" id="软件架构师技术经理-北京赛科世纪数码科技有限公司">
+<section id="软件架构师技术经理-北京赛科世纪数码科技有限公司" class="level3">
 <h3><strong>软件架构师&amp;技术经理</strong> @ 北京赛科世纪数码科技有限公司</h3>
-<section class="level4" id="智能机顶盒软件架构师framework-multimedia-voipscm等六个team负责人">
+<section id="智能机顶盒软件架构师framework-multimedia-voipscm等六个team负责人" class="level4">
 <h4>智能机顶盒软件架构师，Framework, Multimedia, VOIP，SCM等六个team负责人</h4>
 <p><em>2010.5 - 2011.12</em></p>
 </section>
-<section class="level4" id="获得荣誉-1">
+<section id="获得荣誉-1" class="level4">
 <h4>获得荣誉</h4>
 <ul>
 <li>2010年度，项目组被评为赛科世纪“飞虎群英奖”。</li>
 <li>2010年度，个人被评为赛科世纪“爱迪生创新奖”。</li>
 </ul>
 </section>
-<section class="level4" id="研发方向工作">
+<section id="研发方向工作" class="level4">
 <h4>研发方向工作</h4>
 <ul>
 <li>初期担任软件架构师，主要负责：
@@ -161,14 +163,14 @@
 </ul></li>
 </ul>
 </section>
-<section class="level4" id="scm-方向---为研发服务节省开发时间提升工作效率减少人力工作">
+<section id="scm-方向---为研发服务节省开发时间提升工作效率减少人力工作" class="level4">
 <h4>SCM 方向 - 为研发服务，节省开发时间，提升工作效率，减少人力工作。</h4>
 </section>
 </section>
-<section class="level3" id="资深软件工程师-播思通讯-gui-framework项目组">
+<section id="资深软件工程师-播思通讯-gui-framework项目组" class="level3">
 <h3><strong>资深软件工程师</strong> @ 播思通讯 GUI-Framework项目组</h3>
 <p><em>2008.10 - 2010.5</em></p>
-<section class="level4" id="主要工作-2">
+<section id="主要工作-2" class="level4">
 <h4>主要工作</h4>
 <ul>
 <li>负责Android输入法设计，开发，技术支持，bug fix以及性能优化等。</li>
@@ -176,7 +178,7 @@
 <li>负责 GUI-Framework Widget 扩展、开发、维护和技术支持等;</li>
 </ul>
 </section>
-<section class="level4" id="主要成果">
+<section id="主要成果" class="level4">
 <h4>主要成果</h4>
 <ul>
 <li>完成基于Android1.0的OMS1.0和FBW1.2平台12键拼音输入法。</li>
@@ -189,10 +191,10 @@
 </ul>
 </section>
 </section>
-<section class="level3" id="高级软件开发工程师-灵图软件-技术预研项目组数据检查系统qcs项目组">
+<section id="高级软件开发工程师-灵图软件-技术预研项目组数据检查系统qcs项目组" class="level3">
 <h3><strong>高级软件开发工程师</strong> @ 灵图软件 技术预研项目组&amp;数据检查系统（QCS）项目组</h3>
 <p><em>2006.12 - 2008.10</em></p>
-<section class="level4" id="获得荣誉-2">
+<section id="获得荣誉-2" class="level4">
 <h4>获得荣誉</h4>
 <ul>
 <li>2007年度，项目组被评为灵图公司“年度卓越团队”。</li>
@@ -204,7 +206,7 @@
 <li>技术预研项目组，主要负责软件开发和GIS方向新技术的学习和研究，基础库的开发 和维护以及部门技术方向的培训。</li>
 </ul>
 </section>
-<section class="level4" id="主要成果-1">
+<section id="主要成果-1" class="level4">
 <h4>主要成果</h4>
 <ul>
 <li>熟练掌握诸多GIS开源技术如GDAL/OGR, GEOS, PROJ.4, MITAB, BOOST GRAPH等， 在项目开发中广泛应用，大大提高了开发效率并降低了开发难度；</li>
@@ -218,22 +220,22 @@
 </section>
 </section>
 </section>
-<section class="level2" id="教育背景">
+<section id="教育背景" class="level2">
 <h2>教育背景</h2>
-<section class="level3" id="工学硕士-北京交通大学">
+<section id="工学硕士-北京交通大学" class="level3">
 <h3>工学硕士 @ 北京交通大学</h3>
-<section class="level4" id="计算机与信息技术学院-信息科学研究所-信号与信息处理专业">
+<section id="计算机与信息技术学院-信息科学研究所-信号与信息处理专业" class="level4">
 <h4>计算机与信息技术学院 信息科学研究所 信号与信息处理专业</h4>
 <p><em>2004.9 - 2007.1</em></p>
 </section>
-<section class="level4" id="发表论文">
+<section id="发表论文" class="level4">
 <h4>发表论文</h4>
 <ul>
 <li>A Reversible Watermark Scheme Combined with Hash Function and Lossless Compression, Lecture Notes in Computer Science, Volume 3684/2005, pp: 1168-1174,SCIE检索，第一作者</li>
 <li>可以自恢复和篡改定位的可逆数字水印，哈尔滨工业大学学报，Vol. 38(Sup.), 2006, pp: 791-794, EI检索，第一作者</li>
 </ul>
 </section>
-<section class="level4" id="开发实习">
+<section id="开发实习" class="level4">
 <h4>开发实习</h4>
 <ul>
 <li>嵌入式设备Nand Flash 编程器开发项目等。</li>
@@ -241,13 +243,13 @@
 </ul>
 </section>
 </section>
-<section class="level3" id="工学学士-国防科学技术大学">
+<section id="工学学士-国防科学技术大学" class="level3">
 <h3>工学学士 @ 国防科学技术大学</h3>
-<section class="level4" id="机电工程与自动化学院-自动化专业">
+<section id="机电工程与自动化学院-自动化专业" class="level4">
 <h4>机电工程与自动化学院 自动化专业，</h4>
 <p><em>2000.9 - 2004.7</em></p>
 </section>
-<section class="level4" id="获得荣誉-3">
+<section id="获得荣誉-3" class="level4">
 <h4>获得荣誉</h4>
 <ul>
 <li>2002 - 2003学年，被评为<em>校优秀学员</em>，位列专业<em>第一名</em>。</li>
@@ -256,7 +258,7 @@
 </section>
 </section>
 </section>
-<section class="level2" id="自我评价和爱好">
+<section id="自我评价和爱好" class="level2">
 <h2>自我评价和爱好</h2>
 <ul>
 <li>开朗乐观自信，积极主动，喜欢思考，见解独到；</li>
