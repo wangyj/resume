@@ -6,15 +6,15 @@
 
 基本状况
 --------
-硕士学位，七年半工作经验，十年软件开发项目经验，六年Android平台开发经验，四年+
+硕士学位，近八年工作经验，十年软件开发项目经验，六年+Android平台开发经验，近五年
 Android架构和团队管理经验。19个月OPhone平台，19个月Android智能机顶盒，涉及
 Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票等应用。Android平台
 团队建设、技术体系和研发环境部署经验丰富，熟练掌握各种SCM工具搭建和配置。
 
 能力概括
 --------
-  - 十年+C/C++，六年Java，熟练掌握Makefile和Shell，基本掌握Python和Php等脚本语言。
-  - 六年Android开发经验，四年架构和管理经验，涉及Framework, MultiMedia, 原生应用
+  - 十年+C/C++，六年+Java，熟练掌握Makefile和Shell，基本掌握Python和Php等脚本语言。
+  - 六年+Android开发经验，近五年架构和管理经验，涉及Framework, MultiMedia, 原生应用
     ，输入法, 微酷和酷6，京东彩票，CTS测试等。
   - SCM 经验丰富，搭建Android开发环境，Review，wiki，Bug Tracker以及Daily Build等。
   - 熟练掌握Object Oriented，设计模式，重构以及单元测试等;
