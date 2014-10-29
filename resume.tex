@@ -6,7 +6,7 @@
 % Enable hyperlinks
 \setupinteraction[state=start, color=middleblue]
 
-\setuppapersize [letter][letter]  
+\setuppapersize [letter][letter]
 \setuplayout    [width=middle,  backspace=1.5in, cutspace=1.5in,
                  height=middle, topspace=0.75in, bottomspace=0.75in]
 
@@ -16,9 +16,12 @@
 
 \setupwhitespace[medium]
 
-\setuphead[section]      [style=\tfc,number=no]
-\setuphead[subsection]   [style=\tfb,number=no]
-\setuphead[subsubsection][style=\bf,number=no]
+\setuphead[chapter]      [style=\tfd]
+\setuphead[section]      [style=\tfc]
+\setuphead[subsection]   [style=\tfb]
+\setuphead[subsubsection][style=\bf]
+
+\setuphead[chapter, section, subsection, subsubsection][number=no]
 
 \definedescription
   [description]
@@ -26,6 +29,9 @@
 
 \setupitemize[autointro]    % prevent orphan list intro
 \setupitemize[indentnext=no]
+
+\setupfloat[figure][default={here,nonumber}]
+\setupfloat[table][default={here,nonumber}]
 
 \setupthinrules[width=15em] % width of horizontal rules
 
@@ -41,29 +47,29 @@
 
 \subsection[个人信息]{个人信息}
 
-\startitemize
+\startitemize[packed]
 \item
   姓名: 王永杰
 \item
   Mobile: 138-114-00444/136-0124-0624
 \item
-  Email\&Gtalk\&MSN\&QQ: yongjiemail@gmail.com
+  Email&Gtalk&MSN&QQ: yongjiemail@gmail.com
 \stopitemize
 
 \subsection[基本状况]{基本状况}
 
-硕士学位，七年半工作经验，十年软件开发项目经验，六年Android平台开发经验，四年+
+硕士学位，近八年工作经验，十年软件开发项目经验，六年+Android平台开发经验，近五年
 Android架构和团队管理经验。19个月OPhone平台，19个月Android智能机顶盒，涉及
 Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票等应用。Android平台
 团队建设、技术体系和研发环境部署经验丰富，熟练掌握各种SCM工具搭建和配置。
 
 \subsection[能力概括]{能力概括}
 
-\startitemize
+\startitemize[packed]
 \item
-  十年+C/C++，六年Java，熟练掌握Makefile和Shell，基本掌握Python和Php等脚本语言。
+  十年+C/C++，六年+Java，熟练掌握Makefile和Shell，基本掌握Python和Php等脚本语言。
 \item
-  六年Android开发经验，四年架构和管理经验，涉及Framework, MultiMedia,
+  六年+Android开发经验，近五年架构和管理经验，涉及Framework, MultiMedia,
   原生应用 ，输入法, 微酷和酷6，京东彩票，CTS测试等。
 \item
   SCM 经验丰富，搭建Android开发环境，Review，wiki，Bug Tracker以及Daily
@@ -92,23 +98,35 @@ Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票
 \subsubsection[软件架构师-京东商城-移动研发部]{{\bf 软件架构师} @
 京东商城 移动研发部}
 
-\subsubsubsection[京东彩票组负责人京东架构委员会委员京东评标专家]{京东彩票组负责人，京东架构委员会委员，京东评标专家}
+\subsubsubsection[京东android预研组负责人京东架构委员会委员京东评标专家]{京东Android预研组负责人，京东架构委员会委员，京东评标专家}
 
-{\em 2013.6 - 至今}
+{\em 2013.6 - now}
 
 \subsubsubsection[主要工作]{主要工作:}
 
-\startitemize
+\startitemize[packed]
 \item
-  解决京东商城客户端，闪购客户端部分疑难bug和优化等工作。
+  完成京东彩票内嵌版一期，二期，三期，四期需求，设计，开发，测试并成功上线。
 \item
-  完成京东彩票内嵌版一期，二期，三期需求，设计，开发，测试并成功上线。
+  正在进行京东彩票内嵌版五期和独立客户端开发。
 \item
-  正在进行京东彩票内嵌版四期开发
+  完成移动晒单项目开发
+\item
+  完成移动语音搜索项目开发
+\item
+  完成类apptimize的A/B测试工具原理研究和demo开发。
+\item
+  完成网络api基础模块架构设计封装和彩票api封装。
 \item
   完成Git, Gerrit等工具和服务部署，完成daily build持续集成。
 \item
+  完成自动化单元测试，和dailybuild集成，自动运行和报告。
+\item
   完成架构升级插件化项目Eclipse插件工具开发。
+\item
+  完成部门内分享：提高研发效率和产品质量之工具篇
+\item
+  解决京东商城客户端，闪购客户端部分疑难bug和优化等工作。
 \item
   分析京东客户端图片加载慢的问题，提出分析结论和解决办法。
 \stopitemize
@@ -122,14 +140,14 @@ Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票
 
 \subsubsubsection[获得荣誉]{获得荣誉}
 
-\startitemize
+\startitemize[packed]
 \item
   2012年度，项目组荣获\quotation{最佳项目团队}奖。
 \stopitemize
 
 \subsubsubsection[酷6工作-2012.9-2013.5]{酷6工作 {\em 2012.9-2013.5}}
 
-\startitemize
+\startitemize[packed]
 \item
   参与移动团队长远目标规划和短期计划制定。
 \item
@@ -149,7 +167,7 @@ Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票
 \subsubsubsection[创新院工作-2012.3-2012.9]{创新院工作
 {\em 2012.3-2012.9}}
 
-\startitemize
+\startitemize[packed]
 \item
   完成微酷1.3，1.4和1.5三个版本的开发。
 \item
@@ -175,7 +193,7 @@ Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票
 
 \subsubsubsection[主要工作-1]{主要工作}
 
-\startitemize
+\startitemize[packed]
 \item
   参与产品规划，设计及定义。
 \item
@@ -190,7 +208,7 @@ Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票
   负责reader pad的Home原型开发等。
 \stopitemize
 
-\subsubsection[软件架构师技术经理-北京赛科世纪数码科技有限公司]{{\bf 软件架构师\&技术经理}
+\subsubsection[软件架构师技术经理-北京赛科世纪数码科技有限公司]{{\bf 软件架构师&技术经理}
 @ 北京赛科世纪数码科技有限公司}
 
 \subsubsubsection[智能机顶盒软件架构师framework-multimedia-voipscm等六个team负责人]{智能机顶盒软件架构师，Framework,
@@ -200,7 +218,7 @@ Multimedia, VOIP，SCM等六个team负责人}
 
 \subsubsubsection[获得荣誉-1]{获得荣誉}
 
-\startitemize
+\startitemize[packed]
 \item
   2010年度，项目组被评为赛科世纪\quotation{飞虎群英奖}。
 \item
@@ -209,10 +227,10 @@ Multimedia, VOIP，SCM等六个team负责人}
 
 \subsubsubsection[研发方向工作]{研发方向工作}
 
-\startitemize
+\startitemize[packed]
 \item
   初期担任软件架构师，主要负责：
-  \startitemize
+  \startitemize[packed]
   \item
     负责产品规划和定义，制定年度目标。
   \item
@@ -222,7 +240,7 @@ Multimedia, VOIP，SCM等六个team负责人}
   \stopitemize
 \item
   中期兼任Multimedia团队team leader，团队由3人至7人。
-  \startitemize
+  \startitemize[packed]
   \item
     多媒体团队工作组织和安排。
   \item
@@ -238,7 +256,7 @@ Multimedia, VOIP，SCM等六个team负责人}
   \stopitemize
 \item
   后续兼任Framework team leader，小团队共16人
-  \startitemize
+  \startitemize[packed]
   \item
     MultiMedia方向4人，主要完成基于ffmpeg的StageFright插件等工作。
   \item
@@ -256,7 +274,7 @@ Multimedia, VOIP，SCM等六个team负责人}
   \stopitemize
 \item
   Q3 主要担任软件三部(共约40人)技术经理，负责Android方向技术把握和支持。
-  \startitemize
+  \startitemize[packed]
   \item
     主要包括Framework功能开发和bug修改。
   \item
@@ -274,7 +292,7 @@ Multimedia, VOIP，SCM等六个team负责人}
 
 \subsubsubsection[主要工作-2]{主要工作}
 
-\startitemize
+\startitemize[packed]
 \item
   负责Android输入法设计，开发，技术支持，bug fix以及性能优化等。
 \item
@@ -285,7 +303,7 @@ Multimedia, VOIP，SCM等六个team负责人}
 
 \subsubsubsection[主要成果]{主要成果}
 
-\startitemize
+\startitemize[packed]
 \item
   完成基于Android1.0的OMS1.0和FBW1.2平台12键拼音输入法。
 \item
@@ -295,25 +313,27 @@ Multimedia, VOIP，SCM等六个team负责人}
 \item
   完成double click手势并提高用户体验和易用性。
 \item
-  参与三个Copy\&Paste方案设计讨论和改进，并完成功能实现和易用性提高，最终设计进入OMS2.0发布。
+  参与三个Copy&Paste方案设计讨论和改进，并完成功能实现和易用性提高，最终设计进入OMS2.0发布。
 \item
-  开发和维护GUI-framework Widget如TextView，ScrollView，DynamicLayout等。
+  开发和维护GUI-framework
+  Widget如TextView，ScrollView，DynamicLayout等。
 \item
   fix GUI-framework相关bug等。
 \stopitemize
 
 \subsubsection[高级软件开发工程师-灵图软件-技术预研项目组数据检查系统qcs项目组]{{\bf 高级软件开发工程师}
-@ 灵图软件 技术预研项目组\&数据检查系统（QCS）项目组}
+@ 灵图软件 技术预研项目组&数据检查系统（QCS）项目组}
 
 {\em 2006.12 - 2008.10}
 
 \subsubsubsection[获得荣誉-2]{获得荣誉}
 
-\startitemize
+\startitemize[packed]
 \item
   2007年度，项目组被评为灵图公司\quotation{年度卓越团队}。
 \item
-  2007年度，个人被评为灵图公司\quotation{年度创新之星}。 \#\#\#\#主要工作
+  2007年度，个人被评为灵图公司\quotation{年度创新之星}。
+  \#\#\#\#主要工作
 \item
   数据检查系统一期（QCS），主要负责拓扑、形态类检查项开发及相关预研工作；
 \item
@@ -330,10 +350,10 @@ Multimedia, VOIP，SCM等六个team负责人}
 
 \subsubsubsection[主要成果-1]{主要成果}
 
-\startitemize
+\startitemize[packed]
 \item
-  熟练掌握诸多GIS开源技术如GDAL/OGR, GEOS, PROJ.4, MITAB, BOOST GRAPH等，
-  在项目开发中广泛应用，大大提高了开发效率并降低了开发难度；
+  熟练掌握诸多GIS开源技术如GDAL/OGR, GEOS, PROJ.4, MITAB, BOOST
+  GRAPH等， 在项目开发中广泛应用，大大提高了开发效率并降低了开发难度；
 \item
   提炼公用算法形成代码库或动态库，为部门做技术积累，减少类似工具开发的重复
   工作量，提供效率；
@@ -345,7 +365,7 @@ Multimedia, VOIP，SCM等六个team负责人}
   完成QCS2开发、单元测试、测试等整体框架，测试由原来逐项测试，手工比对结果
   提升到自动化批量测试的方式，减少了测试人员的工作量，大大提高了测试的效率；
 \item
-  完成了lt\letterunderscore{}matcher等基础库的开发，以支持工具、系统项目的开发；
+  完成了lt_matcher等基础库的开发，以支持工具、系统项目的开发；
 \item
   进行技术培训，提升部门同事的开发能力和学习兴趣；
 \stopitemize
@@ -361,7 +381,7 @@ Multimedia, VOIP，SCM等六个team负责人}
 
 \subsubsubsection[发表论文]{发表论文}
 
-\startitemize
+\startitemize[packed]
 \item
   A Reversible Watermark Scheme Combined with Hash Function and Lossless
   Compression, Lecture Notes in Computer Science, Volume 3684/2005, pp:
@@ -373,7 +393,7 @@ Multimedia, VOIP，SCM等六个team负责人}
 
 \subsubsubsection[开发实习]{开发实习}
 
-\startitemize
+\startitemize[packed]
 \item
   嵌入式设备Nand Flash 编程器开发项目等。
 \item
@@ -389,7 +409,7 @@ Multimedia, VOIP，SCM等六个team负责人}
 
 \subsubsubsection[获得荣誉-3]{获得荣誉}
 
-\startitemize
+\startitemize[packed]
 \item
   2002 - 2003学年，被评为{\em 校优秀学员}，位列专业{\em 第一名}。
 \item
@@ -398,7 +418,7 @@ Multimedia, VOIP，SCM等六个team负责人}
 
 \subsection[自我评价和爱好]{自我评价和爱好}
 
-\startitemize
+\startitemize[packed]
 \item
   开朗乐观自信，积极主动，喜欢思考，见解独到；
 \item

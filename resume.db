@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
-                  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                  "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd">
 <article>
   <articleinfo>
     <title></title>
@@ -28,7 +28,7 @@
 <sect1 id="基本状况">
   <title>基本状况</title>
   <para>
-    硕士学位，七年半工作经验，十年软件开发项目经验，六年Android平台开发经验，四年+
+    硕士学位，近八年工作经验，十年软件开发项目经验，六年+Android平台开发经验，近五年
     Android架构和团队管理经验。19个月OPhone平台，19个月Android智能机顶盒，涉及
     Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票等应用。Android平台
     团队建设、技术体系和研发环境部署经验丰富，熟练掌握各种SCM工具搭建和配置。
@@ -39,12 +39,12 @@
   <itemizedlist>
     <listitem>
       <para>
-        十年+C/C++，六年Java，熟练掌握Makefile和Shell，基本掌握Python和Php等脚本语言。
+        十年+C/C++，六年+Java，熟练掌握Makefile和Shell，基本掌握Python和Php等脚本语言。
       </para>
     </listitem>
     <listitem>
       <para>
-        六年Android开发经验，四年架构和管理经验，涉及Framework,
+        六年+Android开发经验，近五年架构和管理经验，涉及Framework,
         MultiMedia, 原生应用 ，输入法, 微酷和酷6，京东彩票，CTS测试等。
       </para>
     </listitem>
@@ -103,10 +103,10 @@
   <sect2 id="软件架构师-京东商城-移动研发部">
     <title><emphasis role="strong">软件架构师</emphasis> @ 京东商城
     移动研发部</title>
-    <sect3 id="京东彩票组负责人京东架构委员会委员京东评标专家">
-      <title>京东彩票组负责人，京东架构委员会委员，京东评标专家</title>
+    <sect3 id="京东android预研组负责人京东架构委员会委员京东评标专家">
+      <title>京东Android预研组负责人，京东架构委员会委员，京东评标专家</title>
       <para>
-        <emphasis>2013.6 - 至今</emphasis>
+        <emphasis>2013.6 - now</emphasis>
       </para>
     </sect3>
     <sect3 id="主要工作">
@@ -114,17 +114,32 @@
       <itemizedlist>
         <listitem>
           <para>
-            解决京东商城客户端，闪购客户端部分疑难bug和优化等工作。
+            完成京东彩票内嵌版一期，二期，三期，四期需求，设计，开发，测试并成功上线。
           </para>
         </listitem>
         <listitem>
           <para>
-            完成京东彩票内嵌版一期，二期，三期需求，设计，开发，测试并成功上线。
+            正在进行京东彩票内嵌版五期和独立客户端开发。
           </para>
         </listitem>
         <listitem>
           <para>
-            正在进行京东彩票内嵌版四期开发
+            完成移动晒单项目开发
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            完成移动语音搜索项目开发
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            完成类apptimize的A/B测试工具原理研究和demo开发。
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            完成网络api基础模块架构设计封装和彩票api封装。
           </para>
         </listitem>
         <listitem>
@@ -134,7 +149,22 @@
         </listitem>
         <listitem>
           <para>
+            完成自动化单元测试，和dailybuild集成，自动运行和报告。
+          </para>
+        </listitem>
+        <listitem>
+          <para>
             完成架构升级插件化项目Eclipse插件工具开发。
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            完成部门内分享：提高研发效率和产品质量之工具篇
+          </para>
+        </listitem>
+        <listitem>
+          <para>
+            解决京东商城客户端，闪购客户端部分疑难bug和优化等工作。
           </para>
         </listitem>
         <listitem>
@@ -231,7 +261,8 @@
         </listitem>
         <listitem>
           <para>
-            完成MediaRecorder SDK及Demo开发，并协助以插件形式集成至有你。
+            完成MediaRecorder
+            SDK及Demo开发，并协助以插件形式集成至有你。
           </para>
         </listitem>
         <listitem>
@@ -457,7 +488,8 @@
       <itemizedlist>
         <listitem>
           <para>
-            负责Android输入法设计，开发，技术支持，bug fix以及性能优化等。
+            负责Android输入法设计，开发，技术支持，bug
+            fix以及性能优化等。
           </para>
         </listitem>
         <listitem>
