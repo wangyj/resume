@@ -1,31 +1,47 @@
-\startmode[*mkii]
-  \enableregime[utf-8]  
-  \setupcolors[state=start]
-\stopmode
-
 % Enable hyperlinks
-\setupinteraction[state=start, color=middleblue]
+\setupinteraction
+  [state=start,
+  style=,
+  color=,
+  contrastcolor=]
 
-\setuppapersize [letter][letter]
-\setuplayout    [width=middle,  backspace=1.5in, cutspace=1.5in,
-                 height=middle, topspace=0.75in, bottomspace=0.75in]
+% make chapter, section bookmarks visible when opening document
+\placebookmarks[chapter, section, subsection, subsubsection, subsubsubsection, subsubsubsubsection][chapter, section]
+\setupinteractionscreen[option=bookmark]
 
-\setuppagenumbering[location={footer,center}]
+\setuppagenumbering[location={footer,middle}]
+\setupbackend[export=yes]
+\setupstructure[state=start,method=auto]
 
-\setupbodyfont[11pt]
+% use microtypography
+\definefontfeature[default][default][script=latn, protrusion=quality, expansion=quality, itlc=yes, textitalics=yes, onum=yes, pnum=yes]
+\definefontfeature[smallcaps][script=latn, protrusion=quality, expansion=quality, smcp=yes, onum=yes, pnum=yes]
+\setupalign[hz,hanging]
+\setupitaliccorrection[global, always]
+
+\setupbodyfontenvironment[default][em=italic] % use italic as em, not slanted
+
+\definefallbackfamily[mainface][rm][CMU Serif][preset=range:greek, force=yes]
+\definefontfamily[mainface][rm][Latin Modern Roman]
+\definefontfamily[mainface][mm][Latin Modern Math]
+\definefontfamily[mainface][ss][Latin Modern Sans]
+\definefontfamily[mainface][tt][Latin Modern Typewriter][features=none]
+\setupbodyfont[mainface]
 
 \setupwhitespace[medium]
 
-\setuphead[chapter]      [style=\tfd]
-\setuphead[section]      [style=\tfc]
-\setuphead[subsection]   [style=\tfb]
-\setuphead[subsubsection][style=\bf]
+\setuphead[chapter]            [style=\tfd\setupinterlinespace,header=empty]
+\setuphead[section]            [style=\tfc\setupinterlinespace]
+\setuphead[subsection]         [style=\tfb\setupinterlinespace]
+\setuphead[subsubsection]      [style=\bf]
+\setuphead[subsubsubsection]   [style=\sc]
+\setuphead[subsubsubsubsection][style=\it]
 
-\setuphead[chapter, section, subsection, subsubsection][number=no]
+\setuphead[chapter, section, subsection, subsubsection, subsubsubsection, subsubsubsubsection][number=no]
 
 \definedescription
   [description]
-  [headstyle=bold, style=normal, location=hanging, width=broad, margin=1cm]
+  [headstyle=bold, style=normal, location=hanging, width=broad, margin=1cm, alternative=hanging]
 
 \setupitemize[autointro]    % prevent orphan list intro
 \setupitemize[indentnext=no]
@@ -33,119 +49,74 @@
 \setupfloat[figure][default={here,nonumber}]
 \setupfloat[table][default={here,nonumber}]
 
-\setupthinrules[width=15em] % width of horizontal rules
-
-\setupdelimitedtext
-  [blockquote]
-  [before={\blank[medium]},
-   after={\blank[medium]},
-   indentnext=no,
-  ]
+\setupxtable[frame=off]
+\setupxtable[head][topframe=on,bottomframe=on]
+\setupxtable[body][]
+\setupxtable[foot][bottomframe=on]
 
 
 \starttext
 
-\subsection[个人信息]{个人信息}
+\section[title={王永杰},reference={王永杰}]
+
+\subsection[title={个人信息},reference={个人信息}]
 
 \startitemize[packed]
 \item
   姓名: 王永杰
 \item
-  Mobile: 138-114-00444/170-9014-9189/136-0124-0624
+  Mobile: 138-114-00444
 \item
-  Email&Gtalk&MSN&QQ: yongjiemail@gmail.com
+  Email: yongjiemail@gmail.com
 \stopitemize
 
-\subsection[基本状况]{基本状况}
+\subsection[title={基本状况},reference={基本状况}]
 
-硕士学位，近八年工作经验，十年软件开发项目经验，六年+Android平台开发经验，近五年
-Android架构和团队管理经验。19个月OPhone平台，19个月Android智能机顶盒，涉及
-Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票等应用。Android平台
-团队建设、技术体系和研发环境部署经验丰富，熟练掌握各种SCM工具搭建和配置。
+2013年加入京东，任前台产品研发部技术专家、架构委员会主任架构师、手机京东开放平台负责人，专家委员会委员、前端技术委员会委员、共享技术部首席架构师等，是最早一批投身
+Android 研究和开发的工程师。
 
-\subsection[能力概括]{能力概括}
+目前重点投入 Flutter
+等跨端技术研究及技术中台建设，致力于多端融合技术研究完成移动产品研发全生命周期工具化、自动化、系统化，提升研发效率和质量，降低业务开发门槛。
+
+国防科大学士，北交大硕士，首届 GMTC 特邀嘉宾，第二、第三届 GMTC
+优秀出品人&讲师。曾在盛大创新院等互联网公司担任高级研究员、资深架构师，是一个移动互联网的老兵。
+
+\subsection[title={工作经历},reference={工作经历}]
+
+\subsubsection[title={{\bf T10 架构师} @ 京东零售
+共享技术部},reference={t10-架构师-京东零售-共享技术部}]
+
+{\em 2013.6 - 至今}
+
+\subsubsubsection[title={共享技术部架构师，前端通道委员会委员},reference={共享技术部架构师前端通道委员会委员}]
 
 \startitemize[packed]
 \item
-  十年+C/C++，六年+Java，熟练掌握Makefile和Shell，基本掌握Python和Php等脚本语言。
+  2018年-至今 技术与数据中心 移动技术中台 & 零售云 TPaaS
 \item
-  六年+Android开发经验，近五年架构和管理经验，涉及Framework, MultiMedia,
-  原生应用 ，输入法, 微酷和酷6，京东彩票，CTS测试等。
+  2016年-2018年 前台产品研发部 手机京东平台化
 \item
-  SCM 经验丰富，搭建Android开发环境，Review，wiki，Bug Tracker以及Daily
-  Build等。
+  2014年-2016年 无线业务部 移动技术架构演进
 \item
-  熟练掌握Object Oriented，设计模式，重构以及单元测试等;
-\item
-  熟练使用Arch/Debian/Ubuntu等类Unix操作系统，VIM,
-  Eclipse等各种开发工具，正则表达式等;
-\item
-  Win平台项目开发经验丰富, 熟练使用makefile, VC2005, VC6.0等IDE开发环境
-\item
-  熟练掌握GDAL/OGR, GEOS, 了解JTS, JCS, RoadMatcher等开源技术;
-\item
-  掌握扎实的计算机基础，数据结构，操作系统等，代码风格良好，质量高，逻辑严谨。
-\item
-  通过了英语四六级考试，具备良好的听说读写能力;
-\item
-  具有良好的团队协作精神和沟通表达能力，勇于并乐于接受挑战和探索尝试。
-\item
-  善于克服困难，分析和解决问题。
+  2013年-2014年 移动研发部 创新业务开发
 \stopitemize
 
-\subsection[工作经历]{工作经历}
+\subsubsection[title={{\bf 高级研究员} @ 盛大创新院
+多媒体主题院},reference={高级研究员-盛大创新院-多媒体主题院}]
 
-\subsubsection[软件架构师-京东商城-移动研发部]{{\bf 软件架构师} @
-京东商城 移动研发部}
-
-\subsubsubsection[京东android预研组负责人京东架构委员会委员京东评标专家]{京东Android预研组负责人，京东架构委员会委员，京东评标专家}
-
-{\em 2013.6 - now}
-
-\subsubsubsection[主要工作]{主要工作:}
-
-\startitemize[packed]
-\item
-  完成京东彩票内嵌版一期，二期，三期，四期需求，设计，开发，测试并成功上线。
-\item
-  正在进行京东彩票内嵌版五期和独立客户端开发。
-\item
-  完成移动晒单项目开发
-\item
-  完成移动语音搜索项目开发
-\item
-  完成类apptimize的A/B测试工具原理研究和demo开发。
-\item
-  完成网络api基础模块架构设计封装和彩票api封装。
-\item
-  完成Git, Gerrit等工具和服务部署，完成daily build持续集成。
-\item
-  完成自动化单元测试，和dailybuild集成，自动运行和报告。
-\item
-  完成架构升级插件化项目Eclipse插件工具开发。
-\item
-  完成部门内分享：提高研发效率和产品质量之工具篇
-\item
-  解决京东商城客户端，闪购客户端部分疑难bug和优化等工作。
-\item
-  分析京东客户端图片加载慢的问题，提出分析结论和解决办法。
-\stopitemize
-
-\subsubsection[高级研究员-盛大创新院-多媒体主题院]{{\bf 高级研究员} @
-盛大创新院 多媒体主题院}
-
-\subsubsubsection[微酷android负责人android开发共两人项目团队共12人]{微酷Android负责人（Android开发共两人，项目团队共12人）}
+\subsubsubsection[title={微酷Android负责人（Android开发共两人，项目团队共12人）},reference={微酷android负责人android开发共两人项目团队共12人}]
 
 {\em 2012.3 - 2013.5}
 
-\subsubsubsection[获得荣誉]{获得荣誉}
+\subsubsubsection[title={获得荣誉},reference={获得荣誉}]
 
 \startitemize[packed]
 \item
   2012年度，项目组荣获\quotation{最佳项目团队}奖。
 \stopitemize
 
-\subsubsubsection[酷6工作-2012.9-2013.5]{酷6工作 {\em 2012.9-2013.5}}
+\subsubsubsection[title={酷6工作
+{\em 2012.9-2013.5}},reference={酷6工作-2012.9-2013.5}]
 
 \startitemize[packed]
 \item
@@ -164,8 +135,8 @@ Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票
   设计和开发酷6拍客。
 \stopitemize
 
-\subsubsubsection[创新院工作-2012.3-2012.9]{创新院工作
-{\em 2012.3-2012.9}}
+\subsubsubsection[title={创新院工作
+{\em 2012.3-2012.9}},reference={创新院工作-2012.3-2012.9}]
 
 \startitemize[packed]
 \item
@@ -184,14 +155,14 @@ Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票
   协助Real2Virtual解决重要bug，如内存泄漏问题等。
 \stopitemize
 
-\subsubsection[研发高级经理-北京乐投科技有限公司]{{\bf 研发高级经理} @
-北京乐投科技有限公司}
+\subsubsection[title={{\bf 研发高级经理} @
+北京乐投科技有限公司},reference={研发高级经理-北京乐投科技有限公司}]
 
-\subsubsubsection[android原生应用和framework组负责人]{Android原生应用和Framework组负责人}
+\subsubsubsection[title={Android原生应用和Framework组负责人},reference={android原生应用和framework组负责人}]
 
 {\em 2011.12 - 2012.3}
 
-\subsubsubsection[主要工作-1]{主要工作}
+\subsubsubsection[title={主要工作},reference={主要工作}]
 
 \startitemize[packed]
 \item
@@ -208,15 +179,15 @@ Multimedia，Framework，输入法，原生应用，微酷和酷6，京东彩票
   负责reader pad的Home原型开发等。
 \stopitemize
 
-\subsubsection[软件架构师技术经理-北京赛科世纪数码科技有限公司]{{\bf 软件架构师&技术经理}
-@ 北京赛科世纪数码科技有限公司}
+\subsubsection[title={{\bf 软件架构师&技术经理} @
+北京赛科世纪数码科技有限公司},reference={软件架构师技术经理-北京赛科世纪数码科技有限公司}]
 
-\subsubsubsection[智能机顶盒软件架构师framework-multimedia-voipscm等六个team负责人]{智能机顶盒软件架构师，Framework,
-Multimedia, VOIP，SCM等六个team负责人}
+\subsubsubsection[title={智能机顶盒软件架构师，Framework, Multimedia,
+VOIP，SCM等六个team负责人},reference={智能机顶盒软件架构师framework-multimedia-voipscm等六个team负责人}]
 
 {\em 2010.5 - 2011.12}
 
-\subsubsubsection[获得荣誉-1]{获得荣誉}
+\subsubsubsection[title={获得荣誉},reference={获得荣誉-1}]
 
 \startitemize[packed]
 \item
@@ -225,7 +196,7 @@ Multimedia, VOIP，SCM等六个team负责人}
   2010年度，个人被评为赛科世纪\quotation{爱迪生创新奖}。
 \stopitemize
 
-\subsubsubsection[研发方向工作]{研发方向工作}
+\subsubsubsection[title={研发方向工作},reference={研发方向工作}]
 
 \startitemize[packed]
 \item
@@ -282,15 +253,15 @@ Multimedia, VOIP，SCM等六个team负责人}
   \stopitemize
 \stopitemize
 
-\subsubsubsection[scm-方向---为研发服务节省开发时间提升工作效率减少人力工作]{SCM
-方向 - 为研发服务，节省开发时间，提升工作效率，减少人力工作。}
+\subsubsubsection[title={SCM 方向 -
+为研发服务，节省开发时间，提升工作效率，减少人力工作。},reference={scm-方向---为研发服务节省开发时间提升工作效率减少人力工作}]
 
-\subsubsection[资深软件工程师-播思通讯-gui-framework项目组]{{\bf 资深软件工程师}
-@ 播思通讯 GUI-Framework项目组}
+\subsubsection[title={{\bf 资深软件工程师} @ 播思通讯
+GUI-Framework项目组},reference={资深软件工程师-播思通讯-gui-framework项目组}]
 
 {\em 2008.10 - 2010.5}
 
-\subsubsubsection[主要工作-2]{主要工作}
+\subsubsubsection[title={主要工作},reference={主要工作-1}]
 
 \startitemize[packed]
 \item
@@ -301,7 +272,7 @@ Multimedia, VOIP，SCM等六个team负责人}
   负责 GUI-Framework Widget 扩展、开发、维护和技术支持等;
 \stopitemize
 
-\subsubsubsection[主要成果]{主要成果}
+\subsubsubsection[title={主要成果},reference={主要成果}]
 
 \startitemize[packed]
 \item
@@ -321,19 +292,19 @@ Multimedia, VOIP，SCM等六个team负责人}
   fix GUI-framework相关bug等。
 \stopitemize
 
-\subsubsection[高级软件开发工程师-灵图软件-技术预研项目组数据检查系统qcs项目组]{{\bf 高级软件开发工程师}
-@ 灵图软件 技术预研项目组&数据检查系统（QCS）项目组}
+\subsubsection[title={{\bf 高级软件开发工程师} @ 灵图软件
+技术预研项目组&数据检查系统（QCS）项目组},reference={高级软件开发工程师-灵图软件-技术预研项目组数据检查系统qcs项目组}]
 
 {\em 2006.12 - 2008.10}
 
-\subsubsubsection[获得荣誉-2]{获得荣誉}
+\subsubsubsection[title={获得荣誉},reference={获得荣誉-2}]
 
 \startitemize[packed]
 \item
   2007年度，项目组被评为灵图公司\quotation{年度卓越团队}。
 \item
-  2007年度，个人被评为灵图公司\quotation{年度创新之星}。
-  \#\#\#\#主要工作
+  2007年度，个人被评为灵图公司\quotation{年度创新之星}。 \#\#\#\#
+  主要工作
 \item
   数据检查系统一期（QCS），主要负责拓扑、形态类检查项开发及相关预研工作；
 \item
@@ -348,7 +319,7 @@ Multimedia, VOIP，SCM等六个team负责人}
   和维护以及部门技术方向的培训。
 \stopitemize
 
-\subsubsubsection[主要成果-1]{主要成果}
+\subsubsubsection[title={主要成果},reference={主要成果-1}]
 
 \startitemize[packed]
 \item
@@ -370,16 +341,17 @@ Multimedia, VOIP，SCM等六个team负责人}
   进行技术培训，提升部门同事的开发能力和学习兴趣；
 \stopitemize
 
-\subsection[教育背景]{教育背景}
+\subsection[title={教育背景},reference={教育背景}]
 
-\subsubsection[工学硕士-北京交通大学]{工学硕士 @ 北京交通大学}
+\subsubsection[title={工学硕士 @
+北京交通大学},reference={工学硕士-北京交通大学}]
 
-\subsubsubsection[计算机与信息技术学院-信息科学研究所-信号与信息处理专业]{计算机与信息技术学院
-信息科学研究所 信号与信息处理专业}
+\subsubsubsection[title={计算机与信息技术学院 信息科学研究所
+信号与信息处理专业},reference={计算机与信息技术学院-信息科学研究所-信号与信息处理专业}]
 
 {\em 2004.9 - 2007.1}
 
-\subsubsubsection[发表论文]{发表论文}
+\subsubsubsection[title={发表论文},reference={发表论文}]
 
 \startitemize[packed]
 \item
@@ -391,7 +363,7 @@ Multimedia, VOIP，SCM等六个team负责人}
   2006, pp: 791-794, EI检索，第一作者
 \stopitemize
 
-\subsubsubsection[开发实习]{开发实习}
+\subsubsubsection[title={开发实习},reference={开发实习}]
 
 \startitemize[packed]
 \item
@@ -400,35 +372,21 @@ Multimedia, VOIP，SCM等六个team负责人}
   在北京神鹰广宇科技有限责任公司任C++程序设计讲师。
 \stopitemize
 
-\subsubsection[工学学士-国防科学技术大学]{工学学士 @ 国防科学技术大学}
+\subsubsection[title={工学学士 @
+国防科学技术大学},reference={工学学士-国防科学技术大学}]
 
-\subsubsubsection[机电工程与自动化学院-自动化专业]{机电工程与自动化学院
-自动化专业，}
+\subsubsubsection[title={机电工程与自动化学院
+自动化专业，},reference={机电工程与自动化学院-自动化专业}]
 
 {\em 2000.9 - 2004.7}
 
-\subsubsubsection[获得荣誉-3]{获得荣誉}
+\subsubsubsection[title={获得荣誉},reference={获得荣誉-3}]
 
 \startitemize[packed]
 \item
   2002 - 2003学年，被评为{\em 校优秀学员}，位列专业{\em 第一名}。
 \item
   2001、2003、2004学年三次荣获曾宪梓奖学金。
-\stopitemize
-
-\subsection[自我评价和爱好]{自我评价和爱好}
-
-\startitemize[packed]
-\item
-  开朗乐观自信，积极主动，喜欢思考，见解独到；
-\item
-  爱问为什么，极具潜力和领悟力，有很好的分析和解决问题能力；
-\item
-  对学习工作异常忘我和投入，总是充满了激情与活力。
-\item
-  热爱乒乓球、篮球等球类运动，曾获计算机学院乒乓球比赛男子单打冠军和团体赛季军；
-\item
-  热爱大自然，喜欢音乐，摄影，户外，登山等。
 \stopitemize
 
 \stoptext
